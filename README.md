@@ -2,6 +2,8 @@
 
 This Notification Service Extension allows your app to detect when a push notification is delivered while your app is in the foreground, background, or killed state. This ensures your push notification delivery tracking works 100% of the time.
 
+Courier does not modify your notification content. This is only used to track the notification delivery.
+
 ## More about Notification Service Extensions
 
 <table>
