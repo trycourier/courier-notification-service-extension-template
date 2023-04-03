@@ -9,21 +9,28 @@ This Notification Service Extension allows your app to detect when a push notifi
 <table>
     <thead>
         <tr>
-            <th width="1000px" align="left">Details</th>
+            <th width="800px" align="left">Details</th>
+            <th width="200px" align="center">Docs</th>
         </tr>
     </thead>
     <tbody>
         <tr width="600px">
             <td align="left">
+                Courier Notification Service Setup
+            </td>
+            <td align="center">
                 <a href="https://github.com/trycourier/courier-ios/blob/master/Docs/PushNotifications.md#4-add-the-notification-service-extension-optional-but-recommended">
-                    <code>Courier Notification Service Setup</code>
+                    <code>Docs</code>
                 </a>
             </td>
         </tr>
         <tr width="600px">
             <td align="left">
+                iOS Notification Service Extensions
+            </td>
+            <td align="center">
                 <a href="https://developer.apple.com/documentation/usernotifications/unnotificationserviceextension">
-                    <code>iOS Notification Service Extensions</code>
+                    <code>Docs</code>
                 </a>
             </td>
         </tr>
