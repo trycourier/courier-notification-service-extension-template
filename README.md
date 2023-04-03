@@ -2,9 +2,7 @@
 
 This Notification Service Extension allows your app to detect when a push notification is delivered while your app is in the foreground, background, or killed state. This ensures your push notification delivery tracking works 100% of the time.
 
-&emsp;
-
-## More
+## More about Notification Service Extensions
 
 <table>
     <thead>
