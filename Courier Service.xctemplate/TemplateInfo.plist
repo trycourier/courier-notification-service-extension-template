@@ -25,29 +25,10 @@
 	<array>
 		<dict>
 			<key>Identifier</key>
-			<string>package</string>
-			<key>Required</key>
-			<true/>
-			<key>Name</key>
-			<string>Package:</string>
-			<key>Description</key>
-			<string>The package you want to import</string>
-			<key>Type</key>
-			<string>popup</string>
-			<key>Default</key>
-			<string>Courier</string>
-			<key>Values</key>
-			<array>
-				<string>Courier</string>
-				<string>Courier_iOS</string>
-			</array>
-		</dict>
-		<dict>
-			<key>Identifier</key>
 			<string>languageChoice</string>
 			<key>Units</key>
 			<dict>
-				<key>Swift2</key>
+				<key>Objective-C</key>
 				<dict>
 					<key>Nodes</key>
 					<array>
@@ -59,27 +40,6 @@
 						<dict>
 							<key>Path</key>
 							<string>NotificationService.swift</string>
-						</dict>
-					</dict>
-				</dict>
-				<key>Objective-C</key>
-				<dict>
-					<key>Nodes</key>
-					<array>
-						<string>NotificationService.h</string>
-						<string>NotificationService.m</string>
-					</array>
-					<key>Definitions</key>
-					<dict>
-						<key>NotificationService.h</key>
-						<dict>
-							<key>Path</key>
-							<string>NotificationService.h</string>
-						</dict>
-						<key>NotificationService.m</key>
-						<dict>
-							<key>Path</key>
-							<string>NotificationService.m</string>
 						</dict>
 					</dict>
 				</dict>

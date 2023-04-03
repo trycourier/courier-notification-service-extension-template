@@ -1,14 +1,14 @@
 //___FILEHEADER___
 
-import ___VARIABLE_package___
+import Courier_iOS
 
 class ___FILEBASENAME___: CourierNotificationServiceExtension {
 
-    //
-    //         ^      ╔══════════════════════════════╗
-    //       >' )     ║ You can override this class, ║
-    //       ( ( \   <  but it is not recommended    ║
-    //      mm''|\    ╚══════════════════════════════╝
+    //               ╔══════════════════════════════╗
+    //      ^        ║ You can override this class, ║
+    //     ( '<     <  but it is not recommended.   ║
+    //     \ ) )     ║ ❤️ Courier                    ║
+    //    \|''mm     ╚══════════════════════════════╝
     //
 
 }
