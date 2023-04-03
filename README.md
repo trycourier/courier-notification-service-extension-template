@@ -9,8 +9,8 @@ This Notification Service Extension allows your app to detect when a push notifi
 <table>
     <thead>
         <tr>
-            <th width="800px" align="left">Details</th>
-            <th width="200px" align="center">Docs</th>
+            <th width="900px" align="left">Details</th>
+            <th width="100px" align="center">Docs</th>
         </tr>
     </thead>
     <tbody>
