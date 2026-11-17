@@ -1,23 +1,17 @@
 #!/bin/sh
 
-# Create Templates folder (if needed)
-mkdir -p ~/Library/Developer/Xcode/Templates >/dev/null 2>&1
+# Installs the Courier Service template into Xcode
+cd "$(dirname "$0")" || exit 1
 
-# Replace the old Template with the new one
-# Earlier versions of this script used sudo, which left the folder owned by root
-if ! { rm -rf ~/Library/Developer/Xcode/Templates/Courier\ Service.xctemplate &&
-       cp -rf Courier\ Service.xctemplate ~/Library/Developer/Xcode/Templates/Courier\ Service.xctemplate; } 2>/dev/null; then
-    echo "Couldn't install the template. If you ran an older version of this script, give the folder back to your user and run it again:"
-    echo "  sudo chown -R \"\$USER\" ~/Library/Developer/Xcode/Templates"
+TEMPLATES="$HOME/Library/Developer/Xcode/Templates"
+TEMPLATE="Courier Service.xctemplate"
+
+# Replace any older copy of the template
+if ! { mkdir -p "$TEMPLATES" && rm -rf "$TEMPLATES/$TEMPLATE" && cp -R "$TEMPLATE" "$TEMPLATES/"; } 2>/dev/null; then
+    echo "Couldn't write to $TEMPLATES." >&2
+    echo "If an older version of this script created it with sudo, run this and try again:" >&2
+    echo '  sudo chown -R "$USER" ~/Library/Developer/Xcode/Templates' >&2
     exit 1
 fi
 
-echo "
-    
-           ╔══════════════════════════════════════════════╗
-  ^        ║ Courier Service Xcode Template is ready!     ║
- ( '<     <  You are safe to close this terminal session. ║
- \ ) )     ║ ❤️ Courier                                    ║
-\|''mm     ╚══════════════════════════════════════════════╝
-
-"
+echo "Courier Service template installed. In Xcode, go to File > New > Target and pick Courier Service."

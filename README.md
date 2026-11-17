@@ -4,6 +4,12 @@ This Notification Service Extension allows your app to detect when a push notifi
 
 Courier does not modify your notification content. This is only used to track the notification delivery.
 
+## Install
+
+1. Download this repo and run `sh make_template.sh`.
+2. In Xcode, go to **File > New > Target**, pick **Courier Service**, and click **Finish**.
+3. Add the `Courier_iOS` library to the new target. If your project doesn't have the package yet, go to **File > Add Package Dependencies**, paste `https://github.com/trycourier/courier-ios`, and pick **Up to Next Major Version**.
+
 ## More about Notification Service Extensions
 
 <table>
