@@ -19,7 +19,7 @@ Courier does not modify your notification content. This is only used to track th
                 Courier Notification Service Setup
             </td>
             <td align="center">
-                <a href="https://github.com/trycourier/courier-ios/blob/master/Docs/PushNotifications.md#4-add-the-notification-service-extension-optional-but-recommended">
+                <a href="https://www.courier.com/docs/sdk-libraries/ios#notification-service-extension">
                     <code>Docs</code>
                 </a>
             </td>
